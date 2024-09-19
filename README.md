@@ -2,6 +2,8 @@
 
 Este repositório contém o código-fonte de uma aplicação web básica para gerenciar suas tarefas diárias.
 
+<img src="./assets/imgs/Lista de tarefa.png" alt="Imagem do projeto">
+
 ###  Sobre o Projeto
 
 Este projeto foi criado com o objetivo de praticar HTML, CSS e JavaScript.  A aplicação permite que você:
