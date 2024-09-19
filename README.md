@@ -1,6 +1,7 @@
 ##  Lista de Tarefas - Um Gerenciador Simples :star:
 
 Este repositório contém o código-fonte de uma aplicação web básica para gerenciar suas tarefas diárias.
+Vale ressaltar que a versão para smartphone não está 100% pronta.
 
 <img src="./assets/imgs/Lista de tarefa.png" alt="Imagem do projeto" width="500px">
 
