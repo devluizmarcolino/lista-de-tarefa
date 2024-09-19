@@ -2,7 +2,7 @@
 
 Este repositório contém o código-fonte de uma aplicação web básica para gerenciar suas tarefas diárias.
 
-<img src="./assets/imgs/Lista de tarefa.png" alt="Imagem do projeto">
+<img src="./assets/imgs/Lista de tarefa.png" alt="Imagem do projeto" width="500px">
 
 ###  Sobre o Projeto
 
