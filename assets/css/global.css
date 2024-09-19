@@ -2,4 +2,127 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ! HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+header .logo {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+header .logo:hover {
+  color: #006280;
+}
+
+header .logo i {
+  padding-left: 0.5rem;
+}
+
+/* ! INPUT */
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-input {
+  background-color: #006280;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 14px 19px 0px 0px #000;
+}
+
+.container-input #todo-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-input #todo-form .title-input {
+  padding-bottom: 1rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+
+.container-input #todo-form input {
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.container-input #todo-form .button-input {
+  border: none;
+  background-color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: .3s;;
+}
+
+.container-input #todo-form .button-input:hover {
+  transform: scale(1.1);
+}
+
+/* ! UL */
+
+.ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.container-ul {
+  background-color: #000;
+  padding: 10rem;
+  border-radius: 1rem;
+  color: #fff;
+  box-shadow: 14px 19px 0px 0px #006280;
+}
+
+.container-ul #todo-list {
+  list-style: none;
+}
+
+.container-ul #todo-list li {
+  margin-bottom: 1rem;
+}
+
+.container-ul #todo-list span {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.container-ul #todo-list button {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  background-color: #006280;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.container-ul #todo-list button:hover {
+  transform: scale(1.1);
 }
